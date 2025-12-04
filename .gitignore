@@ -1,1 +1,3 @@
 .DS_Store
+celerybeat-schedule-shm
+celerybeat-schedule-wal
