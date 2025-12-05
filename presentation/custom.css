@@ -1,0 +1,49 @@
+/* All H1 headers */
+.reveal h1 {
+    color:#e74c3c;
+    font-family: 'Impact', sans-serif;
+}
+
+/* All H2 headers */
+.reveal h2 {
+    color:#3498db;
+    font-family: 'Georgia', serif;
+}
+
+/* All paragraphs */
+.reveal p {
+    color:#2c3e50;
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+}
+
+/* All lists */
+.reveal ul li {
+    color:#16a085;
+    font-family: 'Verdana', sans-serif;
+}
+
+/* Minimize slide container margins */
+.reveal .slides {
+    margin: 0;
+    width: 98%;
+    height: 98%;
+}
+
+/* Minimize individual slide padding */
+.reveal .slides section {
+    padding: 15px !important;
+}
+
+/* Tighten element spacing */
+.reveal h1 { margin: 10px 0; }
+.reveal h2 { margin: 8px 0; }
+.reveal h3 { margin: 6px 0; }
+.reveal p { margin: 5px 0; }
+.reveal ul, .reveal ol { margin: 8px 0; }
+.reveal li { margin: 3px 0; }
+
+/* Remove extra spacing from code blocks */
+.reveal pre {
+    margin: 10px 0;
+}

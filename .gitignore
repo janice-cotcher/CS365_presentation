@@ -1,3 +1,5 @@
 .DS_Store
 celerybeat-schedule-shm
 celerybeat-schedule-wal
+presentation/celerybeat-schedule
+presentation/django-errors.log
