@@ -3,7 +3,7 @@
 ## Dataset Information
 
 - **Source:** City of Regina Open Data Portal
-- **URL:** [Open Regina](https://open.regina.ca)
+- **URL:** [Open Regina - Transit Network](https://openregina.ca/dataset/transit-network)
 - **License:** Open Government License - Regina (allows educational use)
 - **Raw Data:**
   - yqrStops.json (bus stops)
@@ -26,7 +26,23 @@ This project cleans and transforms Regina transit data from geographic JSON file
 3. Download and save the [Transit Routes Data JSON file](https://opengis.regina.ca/arcgis/rest/services/OpenData/TransitNetwork/MapServer/1/query?where=1=1&outFields=*&f=json) to `raw_data/` folder and rename it 'yqrRoutes.json'
 4. Download the [Transit GTFS zip folder](https://openregina.ca/dataset/transit-network/resource/1509058a-409b-44b2-8e7e-e7b6056eff16) to 'raw_data'
 5. Unzip 'google_transit.zip' and rename it 'gtfs_data'
-6. Run notebook: `jupyter notebook transit_data.ipynb` or Execute all cells in order in VS Code
+6. Create the following directory structure:
+
+```
+project/
+├── transit_data.ipynb
+├── raw_data/
+│   ├── yqrStops.json
+│   ├── yqrRoutes.json
+│   └── gtfs_data/
+│       ├── stops.txt
+│       ├── routes.txt
+│       ├── trips.txt
+│       └── stop_times.txt
+└── README.md
+```
+
+7. Run notebook: `jupyter notebook transit_data.ipynb` or Execute all cells in order in VS Code
 
 ## Tool Versions
 
